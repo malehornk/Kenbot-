@@ -15,7 +15,7 @@ def chat(prompt):
     return reply
 
 if __name__ == "__main__":
-    print("KenBot Type 'exit' to quit")
+    print("KenBot v0.0.0 Type 'exit' to quit")
     while True:
         user = input("You: ")
         if user.lower() == "exit":
